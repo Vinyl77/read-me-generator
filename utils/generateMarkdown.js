@@ -34,7 +34,8 @@ function generateMarkdown(data) {
 ## Contribution
     ${data.contribute}
 ## License
-   ${data.license}
+[![license](https://img.shields.io/badge/license-${data.license}-blue)](https://shields.io)
+  
 `;
 }
 
