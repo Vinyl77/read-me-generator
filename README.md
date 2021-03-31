@@ -1,4 +1,9 @@
 # eh,
+  ![badge](https://img.shields.io/badge/license-GNU v3-brightgreen)<br />
+
+
+  
+
 ## description
     eh,
 ## Table Of Contents
@@ -11,5 +16,5 @@
     eh
 ## License
 
-[![license](https://img.shields.io/badge/license-BSD 3-Clause-blue)](https://shields.io)
+
   

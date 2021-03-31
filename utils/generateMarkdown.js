@@ -3,6 +3,7 @@
 
 
 function renderLicenseBadge(license) {
+
     
     
     }
@@ -19,10 +20,17 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
     console.log(data)
+
   return `# ${data.title},
+  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br />
+
+
+  
+
 ## description
     ${data.description},
 ## Table Of Contents
@@ -35,7 +43,7 @@ function generateMarkdown(data) {
     ${data.contribute}
 ## License
 
-[![license](https://img.shields.io/badge/license-${data.license}-blue)](https://shields.io)
+
   
 `;
 }
