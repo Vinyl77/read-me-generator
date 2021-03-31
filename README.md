@@ -9,3 +9,5 @@
     eh,
 ## Contribution
     eh
+## License
+   MIT

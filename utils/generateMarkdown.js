@@ -33,6 +33,8 @@ function generateMarkdown(data) {
     ${data.usage},
 ## Contribution
     ${data.contribute}
+## License
+   ${data.license}
 `;
 }
 
