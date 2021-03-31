@@ -1,5 +1,5 @@
 # eh,
-  ![badge](https://img.shields.io/badge/license-GNU v3-brightgreen)<br />
+  ![badge](https://img.shields.io/badge/license-Apache 2.0-brightgreen)<br/>,
 
 
   
