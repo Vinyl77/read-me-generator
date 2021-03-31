@@ -18,16 +18,22 @@ const questions= [
     name: "description"
 },
 {
+    type: "input",
+    message: "Provide the command to install the project",
+    name: "installation"
+
+},
+{
     type: "list",
     message: "What license should your project have?",
     name: "license",
     choices: [
-        "MIT",
-        "Apache 2.0",
-        "GNU v3",
-        "BSD 3-Clause",
-        "Mozilla Public License 2.0",
-        "None"
+       "GNU GPLv3",
+       "Mozilla Public License 2.0",
+       "Apache License 2.0",
+       "MIT License",
+       "Boost Software License 1.0",
+       "The Unlicense"
 
     ]
 },
@@ -43,6 +49,19 @@ const questions= [
   name: "contribute"
 
     
+},
+{
+    type: "input",
+    message: "Enter Github User Info",
+    name: "username"
+
+},
+{
+ type: "input",
+ message: "Enter Your Email Address:",
+ name: "email"
+
+
 }
 
 
