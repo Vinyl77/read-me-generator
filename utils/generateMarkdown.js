@@ -3,7 +3,12 @@
 
 
 function renderLicenseBadge(license) {
-    
+    if (license =='None')
+        {
+        return false;
+    }else{
+        return true;
+    }
     
     }
 
@@ -23,6 +28,8 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
     console.log(data)
   return `# ${data.title},
+  
+
 ## description
     ${data.description},
 ## Table Of Contents

@@ -1,4 +1,6 @@
 # eh,
+  
+
 ## description
     eh,
 ## Table Of Contents
@@ -6,9 +8,9 @@
 
 
 ## Usage
-    eh,
+    eg,
 ## Contribution
     eh
 ## License
-[![license](https://img.shields.io/badge/license-MIT-blue)](https://shields.io)
+[![license](https://img.shields.io/badge/license-BSD 3-Clause-blue)](https://shields.io)
   
