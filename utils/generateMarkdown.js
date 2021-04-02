@@ -3,8 +3,8 @@
 const licenseList = [
     {
         name: 'GNU GPLv3',
-        badge: "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
-        link: "https://www.gnu.org/licenses/gpl-3.0"
+        badge: "[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)",
+        link: "https://opensource.org/licenses/"
       },
       {
         name: 'Mozilla Public License 2.0',
@@ -22,11 +22,7 @@ const licenseList = [
         link: 'https://opensource.org/licenses/MIT',
       },
       {
-        name: 'Boost Software License 1.0',
-        badge: "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
-        link: "https://opensource.org/licenses/BSL-1.0"
-      },
-      {
+    
         name: 'The Unlicense',
         badge: "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)",
         link: "https://opensource.org/licenses/unlicense"
@@ -73,10 +69,10 @@ function generateMarkdown(data) {
 
     return `# ${data.title},
 
-    ${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.license)}
     
 ## description
-    ${data.description},
+${data.description}
 ## Table Of Contents
 * [Installation](#installation)
 * [Usage](#Usage)
@@ -85,15 +81,30 @@ function generateMarkdown(data) {
 * [Questions](#questions)
 
 ## Installation
-   ${data.installation},
+
+To install necessary dependencies,
+run the following command line:
+\`\`\`
+${data.installation}
+\`\`\`
 
 
 ## Usage
-    ${data.usage},
+${data.license}
+${renderLicenseLink(data.license)}
+     
 ## Contribution
-    ${data.contribute},
+    ${data.contribute}
 ## License
-    ${data.license},
+${renderLicenseSection(data.license)}
+
+## Questions
+
+if you have any questions about the repo, open an issue or contact me directly at ${
+  data.email
+}. You can find more of my work at [${data.username}](https://github.com/${
+  data.username
+}/).
 
    
 
