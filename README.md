@@ -35,5 +35,5 @@ Apache License 2.0
 if you have any questions about the repo, open an issue or contact me directly at richard.yvarra@gmail. You can find more of my work at [Vinyl77](https://github.com/Vinyl77/).
 
 ## Video
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/P5_fRKbH_s4/0.jpg)](http://www.youtube.com/watch?v=P5_fRKbH_s4 "Video Title")
+[![Test Video](http://img.youtube.com/vi/P5_fRKbH_s4/0.jpg)](http://www.youtube.com/watch?v=P5_fRKbH_s4 "Test Video")
   
