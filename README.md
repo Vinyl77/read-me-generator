@@ -2,7 +2,7 @@
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
     
-## description
+## Description
 This an application that generates a readme file through the command line.  This application uses Javascript, Node Js, Inquirer, and Path
 ## Table Of Contents
 * [Installation](#installation)
@@ -22,7 +22,7 @@ npm install -y
 
 ## Usage
 Apache License 2.0
-https://opensource.org/licenses/Apache-2.0)
+https://opensource.org/licenses/Apache-2.0
      
 ## Contribution
     Contributions are welcomed!!!
