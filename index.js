@@ -71,6 +71,7 @@ function init(){
  .then((answers)=> { 
 
   const template = util(answers);
+//   sends question and answer to the generateMarkdown file.
 
   fs.writeFileSync(path.join(process.cwd(), 'README.md'), template);
  
